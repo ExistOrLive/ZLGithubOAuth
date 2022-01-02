@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0465DD81829A46F800690F86B6D18FEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		127E9DA37B6C039F4BD353D518966592 /* Pods-ZLGithubOAuth_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F8429BB57BD04363CD8ECBF81CD06F /* Pods-ZLGithubOAuth_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27FF54C791D0E5CE511D94105DF5797A /* Pods-ZLGithubOAuth_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA23C042F9A4A7EFD9D34015CE3D1146 /* Pods-ZLGithubOAuth_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B3E9B1BD03BE3755B7E56F93E6B607D /* Pods-ZLGithubOAuth_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C41EB9DE882E9BF9A49A60B58261EE /* Pods-ZLGithubOAuth_Tests-dummy.m */; };
+		63C347991AC00565F314225360655414 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5FB2719C1732A01318328332B3B6FE /* ReplaceMe.swift */; };
+		6778B862482AD5C9A12AA6AB5776745F /* Pods-ZLGithubOAuth_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9479077C44A09E65D98FCC3B9D71ADE0 /* Pods-ZLGithubOAuth_Example-dummy.m */; };
+		9A39D9AB4814B95CE489276280D5A61B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AD8111738F3292FC7841076D7E99706D /* ZLGithubOAuth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EA1A0E03633556A9B2EDC8D2150CBDB /* ZLGithubOAuth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1D6E159F059FFA1AFDFDF8D7A92AD6F /* ZLGithubOAuth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 743D9A2E630A373A31CF1605EE05AA5A /* ZLGithubOAuth-dummy.m */; };
+		C8607ED55AAE9D8E34582A28B0BE00DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6899EF70B53EAA2E03AF4FDFD7EAC28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BA34AAC278389756BBAF9E9D287AA75;
+			remoteInfo = ZLGithubOAuth;
+		};
+		E173626CB4A22FE37D15625AB53A0ABB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C45E45B9EA01C9149EDB2B4A7E9222E4;
+			remoteInfo = "Pods-ZLGithubOAuth_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002D91AFCF4CC0BBA9DAB5CBAB681B8A /* Pods-ZLGithubOAuth_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLGithubOAuth_Example-Info.plist"; sourceTree = "<group>"; };
+		05BCF029E3B6C05EFC2B108869EE334C /* Pods-ZLGithubOAuth_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLGithubOAuth_Example.release.xcconfig"; sourceTree = "<group>"; };
+		19C41EB9DE882E9BF9A49A60B58261EE /* Pods-ZLGithubOAuth_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLGithubOAuth_Tests-dummy.m"; sourceTree = "<group>"; };
+		20648F2A4ABD028E3F6D1BA47BBABDCC /* Pods-ZLGithubOAuth_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLGithubOAuth_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		20F5E9ECA7699D69FF51B02E876CF66C /* Pods-ZLGithubOAuth_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLGithubOAuth_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A5FB2719C1732A01318328332B3B6FE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ZLGithubOAuth/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		53CF170E24207E4B3FEBB0B9A38F20A3 /* ZLGithubOAuth */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZLGithubOAuth; path = ZLGithubOAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		592DFFB807C8B98702C1F33A9835808D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		59B37D4DF69ECAD2111C0C2CAA4B36D8 /* Pods-ZLGithubOAuth_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZLGithubOAuth_Tests"; path = Pods_ZLGithubOAuth_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EBD073CAAF904AC4D76EAA9A7B35474 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		673FBA4A4097892116FFB094FC21AE70 /* Pods-ZLGithubOAuth_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLGithubOAuth_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6EA1A0E03633556A9B2EDC8D2150CBDB /* ZLGithubOAuth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLGithubOAuth-umbrella.h"; sourceTree = "<group>"; };
+		700F395A1AFBC32DA0780EA93F7ED110 /* Pods-ZLGithubOAuth_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLGithubOAuth_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		743D9A2E630A373A31CF1605EE05AA5A /* ZLGithubOAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLGithubOAuth-dummy.m"; sourceTree = "<group>"; };
+		7AC15E83D146029A8870D8C986CA58DD /* ZLGithubOAuth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLGithubOAuth-prefix.pch"; sourceTree = "<group>"; };
+		7BF308E2E54DB03E35A87C2283B9718D /* Pods-ZLGithubOAuth_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLGithubOAuth_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8178C8DA2F924764BD4EEF89B23E96BA /* ZLGithubOAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLGithubOAuth.debug.xcconfig; sourceTree = "<group>"; };
+		9479077C44A09E65D98FCC3B9D71ADE0 /* Pods-ZLGithubOAuth_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLGithubOAuth_Example-dummy.m"; sourceTree = "<group>"; };
+		967348E5E2771DC8F070FD39FDD2B78C /* Pods-ZLGithubOAuth_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLGithubOAuth_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		981DFC3810EA415403022A65670722ED /* Pods-ZLGithubOAuth_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLGithubOAuth_Tests-Info.plist"; sourceTree = "<group>"; };
+		9822F3ADE39F4FFAA32F2305DBA9A3B0 /* Pods-ZLGithubOAuth_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZLGithubOAuth_Tests.modulemap"; sourceTree = "<group>"; };
+		9A306B4B390BD42B2B1E0FB7BF0A1C9C /* ZLGithubOAuth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZLGithubOAuth.modulemap; sourceTree = "<group>"; };
+		9BBB1C47B7521DF8E9F33AE26A05E9E6 /* ZLGithubOAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLGithubOAuth.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB0820B8CEB7A20BAA200E7939AFA6F6 /* Pods-ZLGithubOAuth_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLGithubOAuth_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B416087392664B7152A7D77033AFC388 /* ZLGithubOAuth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZLGithubOAuth-Info.plist"; sourceTree = "<group>"; };
+		BA23C042F9A4A7EFD9D34015CE3D1146 /* Pods-ZLGithubOAuth_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZLGithubOAuth_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BA84B1DFF4C0159D6DB748DD6F081573 /* Pods-ZLGithubOAuth_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLGithubOAuth_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C9F8429BB57BD04363CD8ECBF81CD06F /* Pods-ZLGithubOAuth_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZLGithubOAuth_Example-umbrella.h"; sourceTree = "<group>"; };
+		D60CBE4D407533FD2650B083586DF6A0 /* Pods-ZLGithubOAuth_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZLGithubOAuth_Example"; path = Pods_ZLGithubOAuth_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9BDC48F24F21ABB67607CB86680450 /* Pods-ZLGithubOAuth_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZLGithubOAuth_Example.modulemap"; sourceTree = "<group>"; };
+		FE2C6C4BE2831C27A996A24ABEF7E878 /* ZLGithubOAuth.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZLGithubOAuth.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4008B33AB15A3916FFBF52DCD2D09158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8607ED55AAE9D8E34582A28B0BE00DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4597E99AC3228E9C5A94049CF22D6758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A39D9AB4814B95CE489276280D5A61B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E96BB25A2343C86A6CEFCE42E361E9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0465DD81829A46F800690F86B6D18FEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37341785C35889297568FBA84345C7CF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E267FC2C0CE7E4171488C18CFD547BD /* ZLGithubOAuth */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3F8E2CA4A9D5C750D774C98DE18C6CEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D60CBE4D407533FD2650B083586DF6A0 /* Pods-ZLGithubOAuth_Example */,
+				59B37D4DF69ECAD2111C0C2CAA4B36D8 /* Pods-ZLGithubOAuth_Tests */,
+				53CF170E24207E4B3FEBB0B9A38F20A3 /* ZLGithubOAuth */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4270EF8ABC47EA8BC5FE128CA48147A6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D305C0C6AE12F26EF4527D6D6209BBE1 /* Pods-ZLGithubOAuth_Example */,
+				640C65DBEE63C090296480BDD94D1D58 /* Pods-ZLGithubOAuth_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6129D566DC48AAAB15BD7BD75EE23453 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				592DFFB807C8B98702C1F33A9835808D /* LICENSE */,
+				5EBD073CAAF904AC4D76EAA9A7B35474 /* README.md */,
+				FE2C6C4BE2831C27A996A24ABEF7E878 /* ZLGithubOAuth.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		640C65DBEE63C090296480BDD94D1D58 /* Pods-ZLGithubOAuth_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9822F3ADE39F4FFAA32F2305DBA9A3B0 /* Pods-ZLGithubOAuth_Tests.modulemap */,
+				700F395A1AFBC32DA0780EA93F7ED110 /* Pods-ZLGithubOAuth_Tests-acknowledgements.markdown */,
+				7BF308E2E54DB03E35A87C2283B9718D /* Pods-ZLGithubOAuth_Tests-acknowledgements.plist */,
+				19C41EB9DE882E9BF9A49A60B58261EE /* Pods-ZLGithubOAuth_Tests-dummy.m */,
+				981DFC3810EA415403022A65670722ED /* Pods-ZLGithubOAuth_Tests-Info.plist */,
+				BA23C042F9A4A7EFD9D34015CE3D1146 /* Pods-ZLGithubOAuth_Tests-umbrella.h */,
+				20F5E9ECA7699D69FF51B02E876CF66C /* Pods-ZLGithubOAuth_Tests.debug.xcconfig */,
+				967348E5E2771DC8F070FD39FDD2B78C /* Pods-ZLGithubOAuth_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZLGithubOAuth_Tests";
+			path = "Target Support Files/Pods-ZLGithubOAuth_Tests";
+			sourceTree = "<group>";
+		};
+		9E267FC2C0CE7E4171488C18CFD547BD /* ZLGithubOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				4A5FB2719C1732A01318328332B3B6FE /* ReplaceMe.swift */,
+				6129D566DC48AAAB15BD7BD75EE23453 /* Pod */,
+				DDDABEDD3D0B83B95743EC77CF4D86A0 /* Support Files */,
+			);
+			name = ZLGithubOAuth;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				37341785C35889297568FBA84345C7CF /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3F8E2CA4A9D5C750D774C98DE18C6CEE /* Products */,
+				4270EF8ABC47EA8BC5FE128CA48147A6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D305C0C6AE12F26EF4527D6D6209BBE1 /* Pods-ZLGithubOAuth_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DE9BDC48F24F21ABB67607CB86680450 /* Pods-ZLGithubOAuth_Example.modulemap */,
+				20648F2A4ABD028E3F6D1BA47BBABDCC /* Pods-ZLGithubOAuth_Example-acknowledgements.markdown */,
+				BA84B1DFF4C0159D6DB748DD6F081573 /* Pods-ZLGithubOAuth_Example-acknowledgements.plist */,
+				9479077C44A09E65D98FCC3B9D71ADE0 /* Pods-ZLGithubOAuth_Example-dummy.m */,
+				673FBA4A4097892116FFB094FC21AE70 /* Pods-ZLGithubOAuth_Example-frameworks.sh */,
+				002D91AFCF4CC0BBA9DAB5CBAB681B8A /* Pods-ZLGithubOAuth_Example-Info.plist */,
+				C9F8429BB57BD04363CD8ECBF81CD06F /* Pods-ZLGithubOAuth_Example-umbrella.h */,
+				AB0820B8CEB7A20BAA200E7939AFA6F6 /* Pods-ZLGithubOAuth_Example.debug.xcconfig */,
+				05BCF029E3B6C05EFC2B108869EE334C /* Pods-ZLGithubOAuth_Example.release.xcconfig */,
+			);
+			name = "Pods-ZLGithubOAuth_Example";
+			path = "Target Support Files/Pods-ZLGithubOAuth_Example";
+			sourceTree = "<group>";
+		};
+		DDDABEDD3D0B83B95743EC77CF4D86A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A306B4B390BD42B2B1E0FB7BF0A1C9C /* ZLGithubOAuth.modulemap */,
+				743D9A2E630A373A31CF1605EE05AA5A /* ZLGithubOAuth-dummy.m */,
+				B416087392664B7152A7D77033AFC388 /* ZLGithubOAuth-Info.plist */,
+				7AC15E83D146029A8870D8C986CA58DD /* ZLGithubOAuth-prefix.pch */,
+				6EA1A0E03633556A9B2EDC8D2150CBDB /* ZLGithubOAuth-umbrella.h */,
+				8178C8DA2F924764BD4EEF89B23E96BA /* ZLGithubOAuth.debug.xcconfig */,
+				9BBB1C47B7521DF8E9F33AE26A05E9E6 /* ZLGithubOAuth.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZLGithubOAuth";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A125F1B0CDB7611F01288770FE0F2C94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127E9DA37B6C039F4BD353D518966592 /* Pods-ZLGithubOAuth_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A3ECB285F0234133D33A0CE35554F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FF54C791D0E5CE511D94105DF5797A /* Pods-ZLGithubOAuth_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7A18AF248E63E3D1450FB46433D7AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8111738F3292FC7841076D7E99706D /* ZLGithubOAuth-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4ED146DD7BB150F4FE20573D0942BB0F /* Pods-ZLGithubOAuth_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F85A50D3E45FD853DF989783A735CC /* Build configuration list for PBXNativeTarget "Pods-ZLGithubOAuth_Tests" */;
+			buildPhases = (
+				A5A3ECB285F0234133D33A0CE35554F1 /* Headers */,
+				34438A2EAEE257C9310099835C55D718 /* Sources */,
+				4597E99AC3228E9C5A94049CF22D6758 /* Frameworks */,
+				4603AF119009672B0CC247DD219255B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				934391E5AFE9B4C2B964A84E133C2557 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZLGithubOAuth_Tests";
+			productName = Pods_ZLGithubOAuth_Tests;
+			productReference = 59B37D4DF69ECAD2111C0C2CAA4B36D8 /* Pods-ZLGithubOAuth_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		9BA34AAC278389756BBAF9E9D287AA75 /* ZLGithubOAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD550B3F45DE40BA2FA0BE9B6CB6B9E4 /* Build configuration list for PBXNativeTarget "ZLGithubOAuth" */;
+			buildPhases = (
+				CB7A18AF248E63E3D1450FB46433D7AF /* Headers */,
+				D3795149A23E1CE0BDB44D216F166306 /* Sources */,
+				4008B33AB15A3916FFBF52DCD2D09158 /* Frameworks */,
+				5C6439B6DA83F513BD08901B59689657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLGithubOAuth;
+			productName = ZLGithubOAuth;
+			productReference = 53CF170E24207E4B3FEBB0B9A38F20A3 /* ZLGithubOAuth */;
+			productType = "com.apple.product-type.framework";
+		};
+		C45E45B9EA01C9149EDB2B4A7E9222E4 /* Pods-ZLGithubOAuth_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1544D49AB873A2B03A3A17FD5945657 /* Build configuration list for PBXNativeTarget "Pods-ZLGithubOAuth_Example" */;
+			buildPhases = (
+				A125F1B0CDB7611F01288770FE0F2C94 /* Headers */,
+				CA77B9ABCD8D6D18C254190322F2195A /* Sources */,
+				8E96BB25A2343C86A6CEFCE42E361E9C /* Frameworks */,
+				E21E700BDB0F6C0EA1CDA94F62CD7E3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDBCE011EDBBC7F08C80DEDFFD51AF81 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZLGithubOAuth_Example";
+			productName = Pods_ZLGithubOAuth_Example;
+			productReference = D60CBE4D407533FD2650B083586DF6A0 /* Pods-ZLGithubOAuth_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3F8E2CA4A9D5C750D774C98DE18C6CEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C45E45B9EA01C9149EDB2B4A7E9222E4 /* Pods-ZLGithubOAuth_Example */,
+				4ED146DD7BB150F4FE20573D0942BB0F /* Pods-ZLGithubOAuth_Tests */,
+				9BA34AAC278389756BBAF9E9D287AA75 /* ZLGithubOAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4603AF119009672B0CC247DD219255B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6439B6DA83F513BD08901B59689657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21E700BDB0F6C0EA1CDA94F62CD7E3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34438A2EAEE257C9310099835C55D718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3E9B1BD03BE3755B7E56F93E6B607D /* Pods-ZLGithubOAuth_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA77B9ABCD8D6D18C254190322F2195A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6778B862482AD5C9A12AA6AB5776745F /* Pods-ZLGithubOAuth_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3795149A23E1CE0BDB44D216F166306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C347991AC00565F314225360655414 /* ReplaceMe.swift in Sources */,
+				C1D6E159F059FFA1AFDFDF8D7A92AD6F /* ZLGithubOAuth-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		934391E5AFE9B4C2B964A84E133C2557 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZLGithubOAuth_Example";
+			target = C45E45B9EA01C9149EDB2B4A7E9222E4 /* Pods-ZLGithubOAuth_Example */;
+			targetProxy = E173626CB4A22FE37D15625AB53A0ABB /* PBXContainerItemProxy */;
+		};
+		DDBCE011EDBBC7F08C80DEDFFD51AF81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZLGithubOAuth;
+			target = 9BA34AAC278389756BBAF9E9D287AA75 /* ZLGithubOAuth */;
+			targetProxy = A6899EF70B53EAA2E03AF4FDFD7EAC28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		496E2468F7A6DCDC271086C7CAA0FE28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8178C8DA2F924764BD4EEF89B23E96BA /* ZLGithubOAuth.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZLGithubOAuth/ZLGithubOAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZLGithubOAuth/ZLGithubOAuth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZLGithubOAuth/ZLGithubOAuth.modulemap";
+				PRODUCT_MODULE_NAME = ZLGithubOAuth;
+				PRODUCT_NAME = ZLGithubOAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		62D98B174512277AE652E58C11542AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05BCF029E3B6C05EFC2B108869EE334C /* Pods-ZLGithubOAuth_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLGithubOAuth_Example/Pods-ZLGithubOAuth_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLGithubOAuth_Example/Pods-ZLGithubOAuth_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71A9D35EEEC30E87D00F293CD9EBA02A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BBB1C47B7521DF8E9F33AE26A05E9E6 /* ZLGithubOAuth.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZLGithubOAuth/ZLGithubOAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZLGithubOAuth/ZLGithubOAuth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZLGithubOAuth/ZLGithubOAuth.modulemap";
+				PRODUCT_MODULE_NAME = ZLGithubOAuth;
+				PRODUCT_NAME = ZLGithubOAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97AB960FEA5B0486C334B43C5167D288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 967348E5E2771DC8F070FD39FDD2B78C /* Pods-ZLGithubOAuth_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLGithubOAuth_Tests/Pods-ZLGithubOAuth_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLGithubOAuth_Tests/Pods-ZLGithubOAuth_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C658F50A029DC02BB66C6291CCBBBC1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB0820B8CEB7A20BAA200E7939AFA6F6 /* Pods-ZLGithubOAuth_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLGithubOAuth_Example/Pods-ZLGithubOAuth_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLGithubOAuth_Example/Pods-ZLGithubOAuth_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D4EEF58C052208B7568B5974B0FBDA57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20F5E9ECA7699D69FF51B02E876CF66C /* Pods-ZLGithubOAuth_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLGithubOAuth_Tests/Pods-ZLGithubOAuth_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLGithubOAuth_Tests/Pods-ZLGithubOAuth_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F85A50D3E45FD853DF989783A735CC /* Build configuration list for PBXNativeTarget "Pods-ZLGithubOAuth_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4EEF58C052208B7568B5974B0FBDA57 /* Debug */,
+				97AB960FEA5B0486C334B43C5167D288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1544D49AB873A2B03A3A17FD5945657 /* Build configuration list for PBXNativeTarget "Pods-ZLGithubOAuth_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C658F50A029DC02BB66C6291CCBBBC1C /* Debug */,
+				62D98B174512277AE652E58C11542AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD550B3F45DE40BA2FA0BE9B6CB6B9E4 /* Build configuration list for PBXNativeTarget "ZLGithubOAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496E2468F7A6DCDC271086C7CAA0FE28 /* Debug */,
+				71A9D35EEEC30E87D00F293CD9EBA02A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

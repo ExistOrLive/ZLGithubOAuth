@@ -1,0 +1,16 @@
+PODS:
+  - ZLGithubOAuth (0.1.0)
+
+DEPENDENCIES:
+  - ZLGithubOAuth (from `../`)
+
+EXTERNAL SOURCES:
+  ZLGithubOAuth:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZLGithubOAuth: 5791dc7422f95e709a29c0a6a9ba1000589895bf
+
+PODFILE CHECKSUM: f092d1470ae51e55fe0e69199626b148ce3dab51
+
+COCOAPODS: 1.11.0
