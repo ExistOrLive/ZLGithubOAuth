@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZLGithubOAuth_Example' do
+  pod 'ZLGithubOAuth', :path => '../'
+
+  target 'ZLGithubOAuth_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
