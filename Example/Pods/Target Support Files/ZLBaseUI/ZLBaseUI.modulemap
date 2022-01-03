@@ -1,0 +1,6 @@
+framework module ZLBaseUI {
+  umbrella header "ZLBaseUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

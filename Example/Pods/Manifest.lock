@@ -1,16 +1,67 @@
 PODS:
-  - ZLGithubOAuth (0.1.0)
+  - Alamofire (5.5.0)
+  - Apollo (0.39.0):
+    - Apollo/Core (= 0.39.0)
+  - Apollo/Core (0.39.0)
+  - HandyJSON (5.0.2)
+  - Masonry (1.1.0)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - SnapKit (5.0.1)
+  - Toast-Swift (5.0.1)
+  - ZLBaseUI (1.2.0):
+    - Masonry
+  - ZLGithubAPISwift (0.1.0):
+    - Alamofire
+    - Apollo
+    - HandyJSON
+    - Moya
+  - ZLGithubOAuth (0.1.0):
+    - Alamofire
+    - SnapKit
+    - ZLBaseUI
 
 DEPENDENCIES:
+  - Toast-Swift
+  - ZLGithubAPISwift (from `https://github.com/ExistOrLive/ZLGithubAPISwift`)
   - ZLGithubOAuth (from `../`)
 
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Apollo
+    - HandyJSON
+    - Masonry
+    - Moya
+    - SnapKit
+    - Toast-Swift
+    - ZLBaseUI
+
 EXTERNAL SOURCES:
+  ZLGithubAPISwift:
+    :git: https://github.com/ExistOrLive/ZLGithubAPISwift
   ZLGithubOAuth:
     :path: "../"
 
-SPEC CHECKSUMS:
-  ZLGithubOAuth: 5791dc7422f95e709a29c0a6a9ba1000589895bf
+CHECKOUT OPTIONS:
+  ZLGithubAPISwift:
+    :commit: b1df88eaeb5a0d101a7fba8d70e267fef3a23973
+    :git: https://github.com/ExistOrLive/ZLGithubAPISwift
 
-PODFILE CHECKSUM: f092d1470ae51e55fe0e69199626b148ce3dab51
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  Apollo: f6c6410ebee82dd5846be87b81cedc8bc7754a82
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  ZLBaseUI: 068453e9b04f010e4453191929c5242e832d0d46
+  ZLGithubAPISwift: e0040a613d0232a81afb35c7dbbcc45a7851ae50
+  ZLGithubOAuth: d374c2d19923e99e2e87b21e32f65ffd1b89e1b0
+
+PODFILE CHECKSUM: ee5506ede9abe0fac166d779fddd7d614af1463d
 
 COCOAPODS: 1.11.0

@@ -3,20 +3,31 @@
   "version": "0.1.0",
   "summary": "A short description of ZLGithubOAuth.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/zhumeng/ZLGithubOAuth",
+  "homepage": "https://github.com/existorlive/ZLGithubOAuth",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "zhumeng": "2068531506@qq.com"
+    "existorlive": "2068531506@qq.com"
   },
   "source": {
-    "git": "https://github.com/zhumeng/ZLGithubOAuth.git",
+    "git": "https://github.com/existorlive/ZLGithubOAuth",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "11.0"
   },
-  "source_files": "ZLGithubOAuth/Classes/**/*"
+  "source_files": "ZLGithubOAuth/Classes/**/*",
+  "dependencies": {
+    "SnapKit": [
+
+    ],
+    "Alamofire": [
+
+    ],
+    "ZLBaseUI": [
+
+    ]
+  }
 }

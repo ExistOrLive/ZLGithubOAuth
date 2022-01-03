@@ -1,8 +1,8 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ZLGithubOAuth"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire" "${PODS_CONFIGURATION_BUILD_DIR}/Apollo" "${PODS_CONFIGURATION_BUILD_DIR}/HandyJSON" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/Moya" "${PODS_CONFIGURATION_BUILD_DIR}/SnapKit" "${PODS_CONFIGURATION_BUILD_DIR}/Toast-Swift" "${PODS_CONFIGURATION_BUILD_DIR}/ZLBaseUI" "${PODS_CONFIGURATION_BUILD_DIR}/ZLGithubAPISwift" "${PODS_CONFIGURATION_BUILD_DIR}/ZLGithubOAuth"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ZLGithubOAuth/ZLGithubOAuth.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "ZLGithubOAuth"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Apollo/Apollo.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/HandyJSON/HandyJSON.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Moya/Moya.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SnapKit/SnapKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Toast-Swift/Toast_Swift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ZLBaseUI/ZLBaseUI.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ZLGithubAPISwift/ZLGithubAPISwift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ZLGithubOAuth/ZLGithubOAuth.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "Alamofire" -framework "Apollo" -framework "CFNetwork" -framework "Foundation" -framework "HandyJSON" -framework "Masonry" -framework "Moya" -framework "QuartzCore" -framework "SnapKit" -framework "Toast_Swift" -framework "UIKit" -framework "ZLBaseUI" -framework "ZLGithubAPISwift" -framework "ZLGithubOAuth"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

@@ -1,0 +1,6 @@
+framework module ZLGithubAPISwift {
+  umbrella header "ZLGithubAPISwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
