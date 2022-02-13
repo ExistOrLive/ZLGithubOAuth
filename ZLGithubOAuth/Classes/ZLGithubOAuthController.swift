@@ -8,10 +8,11 @@
 import UIKit
 import WebKit
 import SnapKit
+import ZLBaseUI
 
 protocol ZLGithubOAuthControllerDelegate: AnyObject {
     
-    // 授权类型
+    /// 授权类型
     func getOAuthType(serialNumber: String) -> ZLGithubOAuthType?
     
     /// 授权码 URL
@@ -30,7 +31,7 @@ protocol ZLGithubOAuthControllerDelegate: AnyObject {
     func onOAuthClose(serialNumber: String)
 }
 
-class ZLGithubOAuthController: UIViewController {
+class ZLGithubOAuthController: ZLBaseViewController {
     
     //
     private weak var delegate: ZLGithubOAuthControllerDelegate?
@@ -58,18 +59,6 @@ class ZLGithubOAuthController: UIViewController {
         return webView
     }()
     
-    private lazy var closeButton: UIButton = {
-        let button = UIButton(type: .custom)
-        button.setTitle("关闭", for: .normal)
-        if #available(iOS 13.0, *) {
-            button.setTitleColor(UIColor.label, for: .normal)
-        } else {
-            button.setTitleColor(UIColor.black, for: .normal)
-        }
-        button.addTarget(self, action: #selector(onCloseButtonClicked), for: .touchUpInside)
-        return button
-    }()
-
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupUI()
@@ -84,25 +73,20 @@ class ZLGithubOAuthController: UIViewController {
     }
     
     private func setupUI() {
-        
-        navigationController?.setNavigationBarHidden(true, animated: false)
-        
-        view.addSubview(webView)
-        view.addSubview(closeButton)
-        
+        title = "Login"
+        setZLNavigationBarHidden(false)
+        contentView.addSubview(webView)
         webView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
         }
-        
-        closeButton.snp.makeConstraints { make in
-            make.top.equalTo(20)
-            make.right.equalTo(-20)
-            make.size.equalTo(CGSize(width: 100, height: 50))
-        }
+    }
+    
+    override func onBackButtonClicked(_ button: UIButton!) {
+        delegate?.onOAuthClose(serialNumber: self.serialNumber)
+        close()
     }
     
     func close() {
-        
         webView.stopLoading()
         if let naviationController = self.navigationController {
             naviationController.popViewController(animated: true)
@@ -110,12 +94,6 @@ class ZLGithubOAuthController: UIViewController {
             self.dismiss(animated: true, completion: nil)
         }
     }
-    
-    @objc func onCloseButtonClicked() {
-        delegate?.onOAuthClose(serialNumber: self.serialNumber)
-        close()
-    }
-    
     
     private func startOAuth() {
         guard let type = self.delegate?.getOAuthType(serialNumber: self.serialNumber) else {
