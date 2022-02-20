@@ -41,6 +41,8 @@ class ZLGithubOAuthController: ZLBaseViewController {
     
     //
     private var isEnd: Bool = false
+    
+    private var hasObserver: Bool = false
 
     
     init(delegate: ZLGithubOAuthControllerDelegate, serialNumber: String) {
@@ -103,6 +105,7 @@ class ZLGithubOAuthController: ZLBaseViewController {
             make.height.equalTo(1)
         }
         
+        hasObserver = true
         webView.addObserver(self, forKeyPath: "estimatedProgress", options: [.new,.initial], context: nil)
     }
     
@@ -112,7 +115,10 @@ class ZLGithubOAuthController: ZLBaseViewController {
     }
     
     func close() {
-        webView.removeObserver(self, forKeyPath: "estimatedProgress")
+        if hasObserver {
+            webView.removeObserver(self, forKeyPath: "estimatedProgress")
+            hasObserver = false
+        }
         webView.stopLoading()
         if let naviationController = self.navigationController {
             naviationController.popViewController(animated: true)
