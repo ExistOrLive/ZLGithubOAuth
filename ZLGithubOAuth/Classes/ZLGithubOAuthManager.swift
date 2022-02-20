@@ -103,6 +103,7 @@ public class ZLGithubOAuthManager: NSObject {
         }
         
         reset()
+        vc?.close()
         self.delegate = delegate
         self.scopes = scopes
         self.allow_signup = allow_signup
@@ -188,7 +189,6 @@ extension ZLGithubOAuthManager {
     
     /// 重置状态
     private func reset() {
-        vc?.close()
         oauthStatus = .initialized
         delegate = nil
         vc = nil

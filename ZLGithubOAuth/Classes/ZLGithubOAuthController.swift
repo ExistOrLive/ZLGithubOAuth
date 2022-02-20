@@ -41,6 +41,7 @@ class ZLGithubOAuthController: ZLBaseViewController {
     
     //
     private var isEnd: Bool = false
+
     
     init(delegate: ZLGithubOAuthControllerDelegate, serialNumber: String) {
         self.delegate = delegate
@@ -59,6 +60,19 @@ class ZLGithubOAuthController: ZLBaseViewController {
         return webView
     }()
     
+    private lazy var processView: UIProgressView = {
+       let processView = UIProgressView()
+        return processView
+    }()
+    
+    private lazy var stackView: UIStackView = {
+        let stackView = UIStackView()
+        stackView.axis = .vertical
+        stackView.distribution = .fill
+        stackView.alignment = .fill
+        return stackView
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupUI()
@@ -73,12 +87,23 @@ class ZLGithubOAuthController: ZLBaseViewController {
     }
     
     private func setupUI() {
+        
         title = "Login"
         setZLNavigationBarHidden(false)
-        contentView.addSubview(webView)
-        webView.snp.makeConstraints { make in
+        
+        contentView.addSubview(stackView)
+        stackView.addArrangedSubview(processView)
+        stackView.addArrangedSubview(webView)
+        
+        stackView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
         }
+        
+        processView.snp.makeConstraints { make in
+            make.height.equalTo(1)
+        }
+        
+        webView.addObserver(self, forKeyPath: "estimatedProgress", options: [.new,.initial], context: nil)
     }
     
     override func onBackButtonClicked(_ button: UIButton!) {
@@ -87,6 +112,7 @@ class ZLGithubOAuthController: ZLBaseViewController {
     }
     
     func close() {
+        webView.removeObserver(self, forKeyPath: "estimatedProgress")
         webView.stopLoading()
         if let naviationController = self.navigationController {
             naviationController.popViewController(animated: true)
@@ -162,6 +188,18 @@ class ZLGithubOAuthController: ZLBaseViewController {
                     self.close()
                 }
             }
+        }
+    }
+    
+}
+
+extension ZLGithubOAuthController {
+    
+    override  func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+        if "estimatedProgress" == keyPath,
+           let value = change?[.newKey] as? Double {
+            processView.isHidden = value == 1.0
+            processView.progress = Float(value)
         }
     }
     
