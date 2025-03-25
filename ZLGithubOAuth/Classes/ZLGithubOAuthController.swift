@@ -8,7 +8,7 @@
 import UIKit
 import WebKit
 import SnapKit
-import ZLBaseUI
+import ZLUIUtilities
 
 protocol ZLGithubOAuthControllerDelegate: AnyObject {
     
@@ -31,7 +31,7 @@ protocol ZLGithubOAuthControllerDelegate: AnyObject {
     func onOAuthClose(serialNumber: String)
 }
 
-class ZLGithubOAuthController: ZLBaseViewController {
+class ZLGithubOAuthController: ZMViewController {
     
     //
     private weak var delegate: ZLGithubOAuthControllerDelegate?
@@ -77,7 +77,6 @@ class ZLGithubOAuthController: ZLBaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.setupUI()
         self.startOAuth()
     }
     
@@ -88,10 +87,10 @@ class ZLGithubOAuthController: ZLBaseViewController {
         }
     }
     
-    private func setupUI() {
-        
+    override func setupUI() {
+        super.setupUI()
         title = "Login"
-        setZLNavigationBarHidden(false)
+        isZmNavigationBarHidden = false
         
         contentView.addSubview(stackView)
         stackView.addArrangedSubview(processView)

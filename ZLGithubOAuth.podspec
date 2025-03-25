@@ -42,6 +42,6 @@ TODO: Add long description of the pod here.
 
   s.dependency 'SnapKit'
   s.dependency 'Alamofire'
-  s.dependency 'ZLBaseUI'
+  s.dependency 'ZLUIUtilities'
 
 end
