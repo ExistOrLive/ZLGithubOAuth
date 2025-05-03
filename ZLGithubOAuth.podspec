@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZLGithubOAuth'
-  s.version          = '1.2.0'
+  s.version          = '1.3.0'
   s.summary          = 'A short description of ZLGithubOAuth.'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'ZLGithubOAuth/Classes/**/*'
+  s.resource_bundle = {"ZLGithubOAuth.privacy"=>"Pod/Privacy/ZLGithubOAuth/PrivacyInfo.xcprivacy"}
   
   # s.resource_bundles = {
   #   'ZLGithubOAuth' => ['ZLGithubOAuth/Assets/*.png']
