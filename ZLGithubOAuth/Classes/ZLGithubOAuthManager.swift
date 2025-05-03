@@ -194,6 +194,7 @@ extension ZLGithubOAuthManager {
         vc = nil
         scopes = []
         allow_signup = false
+        ZLGithubOAuthManager.clearCookies()
     }
     
     ///
